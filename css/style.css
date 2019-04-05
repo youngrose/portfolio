@@ -67,12 +67,19 @@
         padding: 0 240px 0 240px;
     }
 }
+
+video{
+  display: block;
+  margin: 0 auto;
+}
+
 #column {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
   width: 100%;
 }
 .image-container img{

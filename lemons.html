@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA=" crossorigin="anonymous" />
+  <link href="./css/style.css" type="text/css" rel="stylesheet"/>
+  <title>DOG JAIL</title>
+</head>
+  <body>
+
+<!-- this is the nav bar and header -->
+  <div id="wrapper">
+    <div id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+          <li class="sidebar-brand">DOG JAIL</li>
+          <br>
+          <li><a href="index.html">Digital Works</a></li>
+          <li><a href="printed.html">Printed Material</a></li>
+          <li><a href="#lemons">Lemons</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+<!-- jumbotron -->
+    <div id="showcase" class="jumbotron-fluid vertical-center">
+      <div class="container-fluid">
+        <h1>LEMONS</h1>
+        <p>Lemons is a 16 page, two-folio art book of postcards that was letterpress <br>printed and
+          hand-bound during a concentration at Penland School of Craft in 2018.<br>
+          Each page contains prints with perforated tear-lines and postcard markings<br> on the other side,
+          to be popped out and mailed at your leisure. Edition of 18.</p>
+      </div>
+    </div>
+
+
+    <!-- COLUMNS -->
+      <div id="column">
+        <div class="container">
+
+                <video width="640" height="360" controls>
+                  <source src="./resources/video/lemonsdemo.mov" type="video/mp4">
+                      Your browser does not support the video tag.
+               </video>
+
+<br>
+<br>
+<br>
+          <!-- first row -->
+          <div class="row">
+
+            <div class="col-xs-12 col-md-3">
+            </div>
+
+            <div class="col-xs-12 col-md-3">
+              <div class="image-container">
+                <a href="./resources/images/lemons/lemonscover1.jpg" data-toggle="lightbox" data-gallery="digital-gallery" class"col-md-4">
+                  <img src="./resources/images/lemons/lemonscover1icon.jpg" alt="Lemons Cover">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-md-3">
+              <div class="image-container">
+                <a href="./resources/images/lemons/Lemonscover2.jpg" data-toggle="lightbox" data-gallery="digital-gallery" class"col-md-4">
+                  <img src="./resources/images/lemons/Lemonscover2icon.jpg" alt="Lemons Spine">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-md-3">
+            </div>
+
+          </div>
+            <!-- second row --->
+          <div class="row">
+            <div class="col-xs-12 col-md-3">
+            </div>
+
+            <div class="col-xs-12 col-md-3">
+              <div class="image-container">
+                <a href="./resources/images/lemons/IMG_2579.jpg" data-toggle="lightbox" data-gallery="digital-gallery" class"col-md-4">
+                  <img src="./resources/images/lemons/IMG_2579icon.jpg" alt="Page from Lemons">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-md-3">
+              <div class="image-container">
+                <a href="./resources/images/lemons/IMG_2583.jpg" data-toggle="lightbox" data-gallery="digital-gallery" class"col-md-4">
+                  <img src="./resources/images/lemons/IMG_2583icon.jpg" alt="Page from Lemons">
+                </a>
+              </div>
+            </div>
+
+          <div class="col-xs-12 col-md-3">
+          </div>
+
+        </div>
+
+          <!-- Start of the third row -->
+          <div class="row">
+            <div class="col-xs-12 col-md-3">
+            </div>
+            <div class="col-xs-12 col-md-3">
+              <div class="image-container">
+                <a href="./resources/images/lemons/IMG_2582.jpg" data-toggle="lightbox" data-gallery="digital-gallery" class"col-md-4">
+                  <img src="./resources/images/lemons/IMG_2582icon.jpg" alt="Page from Lemons">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-md-3">
+              <div class="image-container">
+                <a href="./resources/images/lemons/IMG_2581.jpg" data-toggle="lightbox" data-gallery="digital-gallery" class"col-md-4">
+                  <img src="./resources/images/lemons/IMG_2581icon.jpg" alt="Page from Lemons">
+                </a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-3">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    <!-- LIGHT BOX SCRIPT -->
+    <script>
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                    event.preventDefault();
+                    $(this).ekkoLightbox();
+                });
+    </script>
+
+    <!-- FOOTER -->
+        <footer class="page-footer">
+          <div class="footer-copyright text-center">
+            <p> published 2018. all rights reserved </p>
+          </div>
+        </footer>
+
+
+  </body>
+</html>
